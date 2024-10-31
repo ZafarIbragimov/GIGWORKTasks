@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GGig Work Task</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+     <header
+      class="navbar navbar-expand-lg navbar-light bg-light rounded shadow gl-navbar"
+    >
+      <div class="container">
+        <div class="d-flex align-items-center w-100">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/14e8/8737/4faa6bec1eb2027355c10e2a2c9eddb5?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A8ohrwmg3hl9VGN2ma46jYUyC3Fv-T634KzxA36HSPBdykj5OJB8vQbMdio0hQFyqaifUyGuCPKDSYn11aLujZK9MvdNOFnYIxgUpdKQJXFP5K1KuYYfzEzAdDVzjrULfiscfceaaHwFwkM7JhD--gRg3AkxGPsWmkXcLl8KGbC7MfVfEhW6MPeIuMh2NaG4K3J3PQhTyKv5p-PwJfZq6qrNGZdDhTqrWUXwUTbIC~kAKZoa1HPvTif9z3COaAwVfiEmOmQqrrkXu9WBKmjV7hBJ3aMNvvuyMbvBBNZcUELIXeDdRnNfin8DQHj81tV803SDMFoeXyEYUnwzHKx50Q__"
+            alt=""
+            width="100px"
+          />
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" style="gap: 30px; font-weight: bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#">ホームページ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">サービス</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">会社</a></li>
+              <li class="nav-item">
+                <a  class="nav-link" href="#">価格設定</a>
+              </li>
+            </ul>
+          </div>
+          <button style="position: relative; bottom: 5px;"  class="btn btn11 d-none d-lg-block ms-4">資料請求</button>
+        </div>
+
+       </div>
+    </header>
+
+     <section class="container my-5 mb-5" style="position: relative; top: 30px;">
+       <div class="row">
+        <div class="col-lg-6 col-md-12 mt-4">
+          <h2 class="mt-3 mb-5">今の販売管理ツールでお悩みなら</h2>
+          <p class="mb-5">
+            <strong
+              ><button class="btn" id="topBtn">月額 3.3</button>
+              万円から使える</strong
+            >
+          </p>
+          <div class="alert alert-warning mb-5">クラウドソリューション</div>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d27c/52a9/f8c1722d151cee38a4257f43ee2ce55e?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PLccVX8EPueKquRyFKrNX-SIodtifcpBaYqZ260efP8gantA4-dcJNtW5lDay5P6oV1MWMiTSHjNchSOlmjxNNRH9-ADOHp~iM~x3Cezp~HqaZdbRGN3FZ~LGyOxN8NtACpVCm5ma6qce5mpBDG2czGeAJ5MFOaoJmozUZPxC0-YaRX8o5tUmRsVapxzV4Ms3IUrISGJF3aODFpm910ksLYH3EEDzgQ7FKTMVu7IVz~zsNddLJNmRS5l7r9y-Aeo9xCJkJZdnL6dmIpIb9kvFXRkW1DQkfe3VClPYo8odJs5jRHH~RpvHK88BXbNjSVvXu5V22iIzwW61I0YlguKTQ__"
+            alt=""
+            class="img-fluid"
+            width="400px"
+          />
+          <button class="btn btn-warning mt-5 p-3" id="pastBtn">
+            資料請求・導入のご相談はこちらから　▶
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-12 text-center">
+          <img
+            id="img1"
+            src="https://s3-alpha-sig.figma.com/img/7124/d4d1/a61aac828a36fc783af3d8b5689e5481?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qsQkEmt~QS45bQWR4AiKc28ks0sTge46q4pKQNF8x7yxbWbN7oHXypxOC019FGr7Vturb~dTWvlx6-xExzrkF~2G5f4FEYEQXTssdLTGwZabWyZTQBfsvo2zxaG6LtyAtLl6PrZs08j76qWJjZNXiswTSK2qMh9mP1jAQgFvRPx8IH8p4KMb2P6y0CTcIoWerAyBRaXRUvwvq7Lr--8fOV6fhm2nvC9Uybs9pxgjQDJCJYVLyFdFNI-FLen3cRzJ3~Aa0td5bTB1kGNuLfh0u~Hs~~iR1eHXJHMKv3Zs01fJAoztEZTAUjYl5wAeM1gLSY023TZ5EhJIl5-yyFBHZA__"
+            alt="Geeks Sign"
+            class="img-fluid rounded"
+          />
+        </div>
+      </div>
+
+       <div class="section2" >
+        <div style="padding-top: 50px ;" >
+          <h3>販売管理ツールはどれも同じように見えるけど、</h3>
+          <h3>実際に導入してみたらちょっとした不満が山積み。。。</h3>
+        </div>
+
+        <div class="row text-center container justify-content-between mt-5">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card text-center bg-body-tertiary rounded">
+              <div class="card-header text-white">費用のお悩み</div>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li>毎月のライセンス料が高くて辛い</li>
+                  <li>
+                    今からツールを変えようとすると、データ移行だけで何百万と必要になってしまう
+                  </li>
+                  <li>システム改修は費用が高い</li>
+                  <li>
+                    ライセンス料以外にサーバー維持費など毎月の支払いが高くなっている
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card text-center bg-body-tertiary rounded">
+              <div class="card-header text-white">費用のお悩み</div>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li>毎月のライセンス料が高くて辛い</li>
+                  <li>
+                    今からツールを変えようとすると、データ移行だけで何百万と必要になってしまう
+                  </li>
+                  <li>システム改修は費用が高い</li>
+                  <li>
+                    ライセンス料以外にサーバー維持費など毎月の支払いが高くなっている
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card text-center bg-body-tertiary rounded">
+              <div class="card-header text-white">費用のお悩み</div>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li>毎月のライセンス料が高くて辛い</li>
+                  <li>
+                    今からツールを変えようとすると、データ移行だけで何百万と必要になってしまう
+                  </li>
+                  <li>システム改修は費用が高い</li>
+                  <li>
+                    ライセンス料以外にサーバー維持費など毎月の支払いが高くなっている
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="section3 mt-5">
+        <div class="text-center pt-3">
+          <h3>私たちは中小企業のシステムを50年支援し続けてきました。</h3>
+        </div>
+        <div class="rounded shadow">
+          <div class="row shadow rounded">
+            <div class="col-1 col-md-3 cars2">
+              <button class="btn">01</button>
+            </div>
+          </div>
+          <div class="row pb-5">
+            <div class="col text-center" style="padding-top: 20vh">
+              <h4>
+                法制度改正やシステムのバージョンアップによる、新たなシステム改変費用が不要です。
+                サブスクリプション型の為、長期的な利用・コスト管理も可能です。
+              </h4>
+            </div>
+            <div class="col" style="padding-top: 15vh">
+              <table class="table table-bordered" style="width: 100%">
+                <thead>
+                  <tr>
+                    <th scope="col" class="bg-body-secondary text-center">
+                      モデルプラン
+                    </th>
+                    <th
+                      scope="col"
+                      style="background-color: #e9ad88; color: white"
+                    >
+                      5ユーザー
+                    </th>
+                    <th
+                      scope="col"
+                      style="background-color: #863126; color: white"
+                    >
+                      10ユーザー
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="bg-body-secondary text-center">
+                      初期費用
+                    </th>
+                    <td>¥350,450</td>
+                    <td>¥400,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="bg-body-secondary text-center">
+                      月額利用料
+                    </th>
+                    <td>¥350,450</td>
+                    <td>¥50,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-5 section33">
+          <div class="row">
+             <div class="col-md-4 mb-4">
+              <div class="text-center shadow-sm p-3 bg-white rounded">
+                <h5 class="card-title text-white py-2 px-3 rounded cardheader">
+                  <button class="btn">02</button> 導入後も安心のサポート体制
+                </h5>
+                <p class="card-text mt-3">
+                  サポートセンターでわからないこと、ご相談はいつでも受付。簡単操作、2重入力不要でミスを。
+                </p>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4">
+              <div class="text-center shadow-sm p-3 bg-white rounded">
+                <h5 class="card-title text-white py-2 px-3 rounded cardheader">
+                  <button class="btn">03</button> 御社独自にカスタマイズ
+                </h5>
+                <p class="card-text mt-3">
+                  どうしても避けられない運用や、追加機能のご要望にもお応えできます。
+                </p>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4">
+              <div class="text-center shadow-sm p-3 bg-white rounded">
+                <h5 class="card-title text-white py-2 px-3 rounded cardheader">
+                  <button class="btn">04</button> クラウド管理なので安心
+                </h5>
+                <p class="card-text mt-3">
+                  クラウドサービスの為、サーバー維持管理が導入会社様では不要
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="section4">
+        <h3 class="text-center pt-5" style="font-weight: 700">
+          ー ソルクラでできるコストカット ー
+        </h3>
+        <div class="row mt-3">
+          <div class="col rounded shadow ms-2 mb-4">
+            <div class="card-header">
+              <h5 class="text-center">
+                毎月手動で送っていた請求書送付を自動化
+              </h5>
+            </div>
+            <div class="card-body">
+              <h6 class="text-center" style="font-weight: 700">
+                年100万円の削減
+              </h6>
+              <div
+                class="d-flex mt-5 justify-content-around align-items-center"
+              >
+                 <div>
+                  <div class="mini-card-header">
+                    <p
+                      class="text-center text-white p-2"
+                      style="font-weight: 700"
+                    >
+                      追加10時間
+                    </p>
+                  </div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+
+                 <div class="arrow-icon">
+                  <span>&#x3e;</span>
+                 </div>
+
+                 <div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded shadow ms-2 mb-4">
+            <div class="card-header">
+              <h5 class="text-center">
+                毎月手動で送っていた請求書送付を自動化
+              </h5>
+            </div>
+            <div class="card-body">
+              <h6 class="text-center" style="font-weight: 700">
+                年100万円の削減
+              </h6>
+              <div
+                class="d-flex mt-5 justify-content-around align-items-center"
+              >
+                 <div>
+                  <div class="mini-card-header">
+                    <p
+                      class="text-center text-white p-2"
+                      style="font-weight: 700"
+                    >
+                      追加10時間
+                    </p>
+                  </div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+
+                 <div class="arrow-icon">
+                  <span>&#x3e;</span>
+                 </div>
+
+                 <div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 pb-5">
+          <div class="col rounded shadow ms-2 mb-4">
+            <div class="card-header">
+              <h5 class="text-center">
+                毎月手動で送っていた請求書送付を自動化
+              </h5>
+            </div>
+            <div class="card-body">
+              <h6 class="text-center" style="font-weight: 700">
+                年100万円の削減
+              </h6>
+              <div
+                class="d-flex mt-5 justify-content-around align-items-center"
+              >
+                 <div>
+                  <div class="mini-card-header">
+                    <p
+                      class="text-center text-white p-2"
+                      style="font-weight: 700"
+                    >
+                      追加10時間
+                    </p>
+                  </div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+
+                 <div class="arrow-icon">
+                  <span>&#x3e;</span>
+                 </div>
+
+                 <div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded shadow ms-2 mb-4">
+            <div class="card-header">
+              <h5 class="text-center">
+                毎月手動で送っていた請求書送付を自動化
+              </h5>
+            </div>
+            <div class="card-body">
+              <h6 class="text-center" style="font-weight: 700">
+                年100万円の削減
+              </h6>
+              <div
+                class="d-flex mt-5 justify-content-around align-items-center"
+              >
+                 <div>
+                  <div class="mini-card-header">
+                    <p
+                      class="text-center text-white p-2"
+                      style="font-weight: 700"
+                    >
+                      追加10時間
+                    </p>
+                  </div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+
+                 <div class="arrow-icon">
+                  <span>&#x3e;</span>
+                 </div>
+
+                 <div>
+                  <div class="mini-card-body text-center">
+                    <p>作業時間</p>
+                    <p>30時間</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="section5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center pt-5 mt-5">
+              <h4
+                class="text-light d-flex flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <span class="me-2 mb-2 mb-md-0">
+                  <button
+                    class="btn"
+                    style="
+                      width: 100px;
+                      background-color: #f8da49;
+                      color: #d8663a;
+                      border-radius: 10px;
+                      font-weight: bold;
+                    "
+                  >
+                    毎月3社限定
+                  </button>
+                </span>
+                初期費用無料 キャンペーン実施中
+              </h4>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <button
+                class="btn btn-warning p-3"
+                id="pastBtn1"
+                style="width: 100%; max-width: 300px"
+              >
+                資料請求・導入のご相談はこちらから　▶
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="container">
+        <div class="flow-container">
+          <h2 class="section-title">業務効率をUPさせる機能が充実</h2>
+
+          <div class="flow-diagram">
+            <div class="flow-item">
+              <div class="process-bubble" id="bubble1">受注管理</div>
+              <div class="process-box">
+                <div class="sub-task">出荷管理</div>
+              </div>
+            </div>
+
+            <div class="flow-item">
+              <div class="process-bubble" id="bubble2">仕様管理</div>
+              <div class="process-bubble mt-5" id="bubble2">仕様管理</div>
+            </div>
+
+            <div class="flow-item">
+              <div class="process-bubble" id="bubble3">発注管理</div>
+              <div class="process-box">
+                <div class="sub-task">仕入入庫</div>
+                <div class="sub-task">支払管理</div>
+              </div>
+            </div>
+
+            <div class="flow-item" style="grid-column: 1">
+              <div class="process-bubble" id="bubble4">売掛管理</div>
+
+              <div class="process-box">
+                <div class="sub-task">売上管理</div>
+                <div class="sub-task">入金消込</div>
+              </div>
+            </div>
+          </div>
+
+          <svg id="arrow-svg"></svg>
+        </div>
+      </div>
+
+       <div class="section6 mt-5 ms-5x" style="position: relative; left: 70px; bottom: 20px; gap-x: 20px">
+        <div class="container mt-4 text-center">
+          <div class="row">
+            <div class="col-md-4 mb-3 col-sm-4">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 1rem 2rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 col-sm-4">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 col-sm-4">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 1rem 2rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 1rem 2rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card carsdd">
+                <div
+                  class="card-header d-flex align-items-center"
+                  style="
+                    background-color: #e86c4d;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                  "
+                >
+                  <i class="fas fa-dot-circle me-2"></i>
+                  <span>情報管理機能</span>
+                </div>
+                <div class="card-body" style="padding: 0.5rem 1rem">
+                  <p
+                    class="card-text"
+                    style="font-size: 0.875rem; color: #6c757d"
+                  >
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="integration-container">
+        <h2 class="section-title">外部ツールとの連携も可能</h2>
+
+        <div class="main-title">
+          <div
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <img
+              src="https://s3-alpha-sig.figma.com/img/d27c/52a9/f8c1722d151cee38a4257f43ee2ce55e?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DP1aZ0QBybG0Zzkchli53H1Ew~RHteeJ8wXcQAapqEsn~N2mXwODtivCzlYdYmZqEtynT2zyPiOwSf-vHrICN2g7SfzMGxOgXTVHg7UeNZIyp5~sdfxN09Cao3DYyovmI89WuYv4CUoHtc05OwjXXDVhT56~rLVcFv527udJ90cNFjeEcjC5-IEgJJhwyp42JsNDGd0VNTSZjtfVJcPu9s4O86XDb0erOBKKaMLmV0drsHqPP7OFpeuCukseiF-AUHCP9~ebygxIP~bb3ARbn5QOShtLIIfdfoYa8gOZzBnKnFjf3A~srDGs8fkEDxFzrpgx7LU8mqvyqG7hM6az8Q__"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="integration-boxes">
+          <div class="main-connector"></div>
+          <div class="connection-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+
+          <div class="integration-box">
+            <div class="box-header">EC</div>
+            <div class="box-content">
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/ad44/d820/7fe25ec8adb510670a18880c7fa9a8cc?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pn65b0PjcJP-x7AajyM0b640Nmdhwd9WoUyPiA1A5ckeT7UU01fbL2QD8JRZnulTtVM6iBnL2nzJs7B~qXSrVfQwMsO48IWWaneYRQf2wKyflIaXAnqjist6WtGJ1S-o2FuQ9VAmTRsopzPPYguipGjlLBtCCqzE9-uqbW8PZ1JfOgpUA03Hh9goqFY~T63x6CPUzeMfszqQfSQfbrIPQT-TUSGXE2KxAiAArodIvhu8w0q9ZKyLQF~VmQ5PP0ZydveRsySv~O2YCTPVHHSIcJBhs-QQnk~CRqSV7sQrXYTBZsj5epZ74E-zykRWEbd7NN-eAkc45IeQN9VuOBBUxg__"
+                  alt="Shopify Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/ad44/d820/7fe25ec8adb510670a18880c7fa9a8cc?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pn65b0PjcJP-x7AajyM0b640Nmdhwd9WoUyPiA1A5ckeT7UU01fbL2QD8JRZnulTtVM6iBnL2nzJs7B~qXSrVfQwMsO48IWWaneYRQf2wKyflIaXAnqjist6WtGJ1S-o2FuQ9VAmTRsopzPPYguipGjlLBtCCqzE9-uqbW8PZ1JfOgpUA03Hh9goqFY~T63x6CPUzeMfszqQfSQfbrIPQT-TUSGXE2KxAiAArodIvhu8w0q9ZKyLQF~VmQ5PP0ZydveRsySv~O2YCTPVHHSIcJBhs-QQnk~CRqSV7sQrXYTBZsj5epZ74E-zykRWEbd7NN-eAkc45IeQN9VuOBBUxg__"
+                  alt="Shopify Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/ad44/d820/7fe25ec8adb510670a18880c7fa9a8cc?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pn65b0PjcJP-x7AajyM0b640Nmdhwd9WoUyPiA1A5ckeT7UU01fbL2QD8JRZnulTtVM6iBnL2nzJs7B~qXSrVfQwMsO48IWWaneYRQf2wKyflIaXAnqjist6WtGJ1S-o2FuQ9VAmTRsopzPPYguipGjlLBtCCqzE9-uqbW8PZ1JfOgpUA03Hh9goqFY~T63x6CPUzeMfszqQfSQfbrIPQT-TUSGXE2KxAiAArodIvhu8w0q9ZKyLQF~VmQ5PP0ZydveRsySv~O2YCTPVHHSIcJBhs-QQnk~CRqSV7sQrXYTBZsj5epZ74E-zykRWEbd7NN-eAkc45IeQN9VuOBBUxg__"
+                  alt="Shopify Logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="integration-box">
+            <div class="box-header">CRM</div>
+            <div class="box-content">
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/e5f5/b4d5/ceb42da6bcb8fdf3d1f68d7fdee2f710?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DkeT7dIM9R7Y3n04l10e2u92KMv8PHVD0MV5nz-JVqhjckz6IJoTpexKAcp765fCZ6LiR4qcpvF9jjRd0unZtf13S~awF3VNgKRPwgP-KykzVi0SmDvf4m74cIkNbMb~LrS0u~~Hs2m5PzDITerNP-jijx6XjhvHc0nsqdDdXmdMUJ1sx2siXgmTb6FVa9fvy~KvC0gCxrZRJ~9bW8asQ7OwR8aVytHOCukuMmhYDBk64AoGxRB~JE2-CpQKEeZB2YnrFlWp09azO0LOfTcaHzkSC0VWxIdUB4Vq9~XYULa60~qwKFhwlhyA7YqwcfJlgfvNVvYAijYuwedpYxt20Q__"
+                  alt="HubSpot Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/e5f5/b4d5/ceb42da6bcb8fdf3d1f68d7fdee2f710?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DkeT7dIM9R7Y3n04l10e2u92KMv8PHVD0MV5nz-JVqhjckz6IJoTpexKAcp765fCZ6LiR4qcpvF9jjRd0unZtf13S~awF3VNgKRPwgP-KykzVi0SmDvf4m74cIkNbMb~LrS0u~~Hs2m5PzDITerNP-jijx6XjhvHc0nsqdDdXmdMUJ1sx2siXgmTb6FVa9fvy~KvC0gCxrZRJ~9bW8asQ7OwR8aVytHOCukuMmhYDBk64AoGxRB~JE2-CpQKEeZB2YnrFlWp09azO0LOfTcaHzkSC0VWxIdUB4Vq9~XYULa60~qwKFhwlhyA7YqwcfJlgfvNVvYAijYuwedpYxt20Q__"
+                  alt="HubSpot Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/e5f5/b4d5/ceb42da6bcb8fdf3d1f68d7fdee2f710?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DkeT7dIM9R7Y3n04l10e2u92KMv8PHVD0MV5nz-JVqhjckz6IJoTpexKAcp765fCZ6LiR4qcpvF9jjRd0unZtf13S~awF3VNgKRPwgP-KykzVi0SmDvf4m74cIkNbMb~LrS0u~~Hs2m5PzDITerNP-jijx6XjhvHc0nsqdDdXmdMUJ1sx2siXgmTb6FVa9fvy~KvC0gCxrZRJ~9bW8asQ7OwR8aVytHOCukuMmhYDBk64AoGxRB~JE2-CpQKEeZB2YnrFlWp09azO0LOfTcaHzkSC0VWxIdUB4Vq9~XYULa60~qwKFhwlhyA7YqwcfJlgfvNVvYAijYuwedpYxt20Q__"
+                  alt="HubSpot Logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="integration-box">
+            <div class="box-header">会計</div>
+            <div class="box-content">
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/81d8/f3ae/6563dc77a3e08829c463a4d27d8bcfec?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjOif-zBu7UqhVaZZ52neETGuEan1EEcZzOtvpT6Y9FMA1lHsiaL3peoNzufd5SS4nSbjNUKZNLiLoHpS0Fm4~qhWif8n5zUPq7eeMAUH5dAuxBowT4l76Puk-91D-S9I5aj41~sXBFET83tX4PbL1u3gGzMbVFxxyKIuU8X7ULxnXz1NuRYsxUnREEn5rbY4xftfEDoZuaxSXfAZ9Vi6TkYChc7QZzzUNj9-z2lNVwRTj0OHDtKG1T~QAjNhX8ROjt-3abWryV70wBy32Dno1abELpCBfohglKGtPyEghAa-HribZw~1D89uSDbmUG~kPmwv4pUsf5LZrSJCAwZbQ__"
+                  alt="freee Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/81d8/f3ae/6563dc77a3e08829c463a4d27d8bcfec?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjOif-zBu7UqhVaZZ52neETGuEan1EEcZzOtvpT6Y9FMA1lHsiaL3peoNzufd5SS4nSbjNUKZNLiLoHpS0Fm4~qhWif8n5zUPq7eeMAUH5dAuxBowT4l76Puk-91D-S9I5aj41~sXBFET83tX4PbL1u3gGzMbVFxxyKIuU8X7ULxnXz1NuRYsxUnREEn5rbY4xftfEDoZuaxSXfAZ9Vi6TkYChc7QZzzUNj9-z2lNVwRTj0OHDtKG1T~QAjNhX8ROjt-3abWryV70wBy32Dno1abELpCBfohglKGtPyEghAa-HribZw~1D89uSDbmUG~kPmwv4pUsf5LZrSJCAwZbQ__"
+                  alt="freee Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/81d8/f3ae/6563dc77a3e08829c463a4d27d8bcfec?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjOif-zBu7UqhVaZZ52neETGuEan1EEcZzOtvpT6Y9FMA1lHsiaL3peoNzufd5SS4nSbjNUKZNLiLoHpS0Fm4~qhWif8n5zUPq7eeMAUH5dAuxBowT4l76Puk-91D-S9I5aj41~sXBFET83tX4PbL1u3gGzMbVFxxyKIuU8X7ULxnXz1NuRYsxUnREEn5rbY4xftfEDoZuaxSXfAZ9Vi6TkYChc7QZzzUNj9-z2lNVwRTj0OHDtKG1T~QAjNhX8ROjt-3abWryV70wBy32Dno1abELpCBfohglKGtPyEghAa-HribZw~1D89uSDbmUG~kPmwv4pUsf5LZrSJCAwZbQ__"
+                  alt="freee Logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="integration-box">
+            <div class="box-header">倉庫</div>
+            <div class="box-content">
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/96a7/71c6/244c4e62cc5096f2206ee6d099dd43ea?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H4EfuiiJUER2Z~aL8l~6kuxKT~JEAhU37dxAsr2dsAwpQLzibHfmFEoa69WQ09F0HpzJbLGSxWww6d9ODJ-2JldCMnsw9Bkk7Ps6haNNOHjYvcjO4yuMrfRlT5fV7HLtMv6kb0IFZ8Fk3ikzrSmz7XPlrp~R8U6JXsP4bUxbv1GOUQtchCReGOrUX2KEw0-20iKZtFbNlIa-ZOUdRsEDlOzXRNbDa88plS0sFCubRLYiZnz5uZ63kMfaaiNlrPijwKK-oCQPIpYjgCIIkThOXxHsy0rjEiFgD9vUktUBKkWh2G818UbdusDjVqMI1qLbRu26aiyTe3TowSSim8HPxA__"
+                  alt="LOGILESS Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/96a7/71c6/244c4e62cc5096f2206ee6d099dd43ea?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H4EfuiiJUER2Z~aL8l~6kuxKT~JEAhU37dxAsr2dsAwpQLzibHfmFEoa69WQ09F0HpzJbLGSxWww6d9ODJ-2JldCMnsw9Bkk7Ps6haNNOHjYvcjO4yuMrfRlT5fV7HLtMv6kb0IFZ8Fk3ikzrSmz7XPlrp~R8U6JXsP4bUxbv1GOUQtchCReGOrUX2KEw0-20iKZtFbNlIa-ZOUdRsEDlOzXRNbDa88plS0sFCubRLYiZnz5uZ63kMfaaiNlrPijwKK-oCQPIpYjgCIIkThOXxHsy0rjEiFgD9vUktUBKkWh2G818UbdusDjVqMI1qLbRu26aiyTe3TowSSim8HPxA__"
+                  alt="LOGILESS Logo"
+                />
+              </div>
+              <div class="logo-container">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/96a7/71c6/244c4e62cc5096f2206ee6d099dd43ea?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H4EfuiiJUER2Z~aL8l~6kuxKT~JEAhU37dxAsr2dsAwpQLzibHfmFEoa69WQ09F0HpzJbLGSxWww6d9ODJ-2JldCMnsw9Bkk7Ps6haNNOHjYvcjO4yuMrfRlT5fV7HLtMv6kb0IFZ8Fk3ikzrSmz7XPlrp~R8U6JXsP4bUxbv1GOUQtchCReGOrUX2KEw0-20iKZtFbNlIa-ZOUdRsEDlOzXRNbDa88plS0sFCubRLYiZnz5uZ63kMfaaiNlrPijwKK-oCQPIpYjgCIIkThOXxHsy0rjEiFgD9vUktUBKkWh2G818UbdusDjVqMI1qLbRu26aiyTe3TowSSim8HPxA__"
+                  alt="LOGILESS Logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="section5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center pt-5 mt-5">
+              <h4
+                class="text-light d-flex flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <span class="me-2 mb-2 mb-md-0">
+                  <button
+                    class="btn"
+                    style="
+                      width: 100px;
+                      background-color: #f8da49;
+                      color: #d8663a;
+                      border-radius: 10px;
+                      font-weight: bold;
+                    "
+                  >
+                    毎月3社限定
+                  </button>
+                </span>
+                初期費用無料 キャンペーン実施中
+              </h4>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <button
+                class="btn btn-warning p-3"
+                id="pastBtn1"
+                style="width: 100%; max-width: 300px"
+              >
+                資料請求・導入のご相談はこちらから　▶
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="list-tables d-flex">
+         <table class="table table-bordered mt-5 pt-5 text-center">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col" style="background-color: #336e6d; color: white">
+                A社
+              </th>
+              <th scope="col" style="background-color: #336e6d; color: white">
+                B社
+              </th>
+              <th scope="col" style="background-color: #336e6d; color: white">
+                C社
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">初期費用</th>
+              <td>¥252,450</td>
+              <td>¥275,000</td>
+              <td>¥165,000</td>
+            </tr>
+            <tr>
+              <th scope="row">月額</th>
+              <td>¥252,450</td>
+              <td>¥275,000</td>
+              <td>¥165,000</td>
+            </tr>
+            <tr>
+              <th scope="row">開発費用</th>
+              <td>¥252,450</td>
+              <td>¥275,000</td>
+              <td>¥165,000</td>
+            </tr>
+            <tr>
+              <th scope="row">カスタマイズ性</th>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">基本機能</th>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">外部連携</th>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+              <td><i class="fa-regular fa-circle"></i></td>
+            </tr>
+          </tbody>
+        </table>
+
+         <div class="image-table mt-5">
+          <img src="./img/image.png" alt="Table Image" style="width: 100%" />
+        </div>
+      </div>
+
+ 
+      <div class="container mt-5">
+        <h2 class="section-title">サービス料金</h2>
+
+        <table class="pricing-table w-100">
+          <thead>
+            <tr>
+              <th>＜モデルプラン＞</th>
+              <th>5ユーザー</th>
+              <th>10ユーザー</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>初期設定費用</td>
+              <td>¥350,000</td>
+              <td>¥400,000</td>
+            </tr>
+            <tr>
+              <td>月額利用料</td>
+              <td>¥33,000</td>
+              <td>¥50,000</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="price-example">料金事例が入ります</div>
+
+        <div class="calculation-box">
+          <div class="fee-box">
+            <div class="fee-title">初期費用</div>
+            <div class="fee-amount">金額が入ります</div>
+          </div>
+          <div class="operator">+</div>
+          <div class="fee-box">
+            <div class="fee-title">月額費用</div>
+            <div class="fee-amount">金額が入ります</div>
+          </div>
+          <div class="arrow">►</div>
+          <div class="total-box">
+            <div class="fee-title">合計</div>
+            <div class="fee-amount" style="color: white">金額が入ります</div>
+          </div>
+        </div>
+
+        <div class="calculation-box">
+          <div class="fee-box">
+            <div class="fee-title">初期費用</div>
+            <div class="fee-amount">金額が入ります</div>
+          </div>
+          <div class="operator">+</div>
+          <div class="fee-box">
+            <div class="fee-title">月額費用</div>
+            <div class="fee-amount">金額が入ります</div>
+          </div>
+          <div class="arrow">►</div>
+          <div class="total-box">
+            <div class="fee-title">合計</div>
+            <div class="fee-amount" style="color: white">金額が入ります</div>
+          </div>
+        </div>
+      </div>
+       <div class="section5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center pt-5 mt-5">
+              <h4
+                class="text-light d-flex flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <span class="me-2 mb-2 mb-md-0">
+                  <button
+                    class="btn"
+                    style="
+                      width: 100px;
+                      background-color: #f8da49;
+                      color: #d8663a;
+                      border-radius: 10px;
+                      font-weight: bold;
+                    "
+                  >
+                    毎月3社限定
+                  </button>
+                </span>
+                初期費用無料 キャンペーン実施中
+              </h4>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <button
+                class="btn btn-warning p-3"
+                id="pastBtn1"
+                style="width: 100%; max-width: 300px"
+              >
+                資料請求・導入のご相談はこちらから　▶
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+ 
+      <section>
+        <div class="container step-container mt-5">
+          <h2 class="level-title">ー　導入の流れ　ー</h2>
+
+          <ul>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 01</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.5467 30.7374C22.84 30.7374 21.9333 30.5108 20.8 29.8441L16.8133 27.4841C16.4 27.2441 15.6 27.2441 15.2 27.4841L11.2 29.8441C8.83999 31.2441 7.45333 30.6841 6.82666 30.2308C6.21333 29.7774 5.25333 28.6174 5.87999 25.9508L6.82666 21.8574C6.93333 21.4308 6.71999 20.6974 6.39999 20.3774L3.09333 17.0708C1.43999 15.4174 1.57333 14.0041 1.79999 13.3108C2.02666 12.6174 2.74666 11.3908 5.03999 11.0041L9.29333 10.2974C9.69333 10.2308 10.2667 9.80409 10.44 9.44409L12.8 4.73742C13.8667 2.59075 15.2667 2.27075 16 2.27075C16.7333 2.27075 18.1333 2.59075 19.2 4.73742L21.5467 9.43075C21.7333 9.79075 22.3067 10.2174 22.7067 10.2841L26.96 10.9908C29.2667 11.3774 29.9867 12.6041 30.2 13.2974C30.4133 13.9908 30.5467 15.4041 28.9067 17.0574L25.6 20.3774C25.28 20.6974 25.08 21.4174 25.1733 21.8574L26.12 25.9508C26.7333 28.6174 25.7867 29.7774 25.1733 30.2308C24.84 30.4708 24.3067 30.7374 23.5467 30.7374ZM16 25.2974C16.6533 25.2974 17.3067 25.4574 17.8267 25.7641L21.8133 28.1241C22.9733 28.8174 23.7067 28.8174 23.9867 28.6174C24.2667 28.4174 24.4667 27.7108 24.1733 26.4041L23.2267 22.3108C22.9733 21.2041 23.3867 19.7774 24.1867 18.9641L27.4933 15.6574C28.1467 15.0041 28.44 14.3641 28.3067 13.9241C28.16 13.4841 27.5467 13.1241 26.64 12.9774L22.3867 12.2708C21.36 12.0974 20.24 11.2708 19.7733 10.3374L17.4267 5.64408C17 4.79075 16.4667 4.28409 16 4.28409C15.5333 4.28409 15 4.79075 14.5867 5.64408L12.2267 10.3374C11.76 11.2708 10.64 12.0974 9.61333 12.2708L5.37333 12.9774C4.46666 13.1241 3.85333 13.4841 3.70666 13.9241C3.55999 14.3641 3.86666 15.0174 4.51999 15.6574L7.82666 18.9641C8.62666 19.7641 9.03999 21.2041 8.78666 22.3108L7.83999 26.4041C7.53333 27.7241 7.74666 28.4174 8.02666 28.6174C8.30666 28.8174 9.02666 28.8041 10.2 28.1241L14.1867 25.7641C14.6933 25.4574 15.3467 25.2974 16 25.2974Z"
+                        fill="white"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">
+                  こちらのフォームよりお問い合わせください
+                </div>
+                <div class="step-description">
+                  文章文章文章文章文章文章文章 文章文章文章文章文章
+                  文章文章文章文章文章
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 02</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_5033_311)">
+                        <path
+                          d="M25.3333 4.51074H6.66667C4.89921 4.51286 3.20474 5.21592 1.95496 6.4657C0.705176 7.71549 0.00211714 9.40995 0 11.1774L0 19.1774C0.00211714 20.9449 0.705176 22.6393 1.95496 23.8891C3.20474 25.1389 4.89921 25.842 6.66667 25.8441H14.6667V27.1774H10.6667C10.313 27.1774 9.97391 27.3179 9.72386 27.5679C9.47381 27.818 9.33333 28.1571 9.33333 28.5107C9.33333 28.8644 9.47381 29.2035 9.72386 29.4536C9.97391 29.7036 10.313 29.8441 10.6667 29.8441H21.3333C21.687 29.8441 22.0261 29.7036 22.2761 29.4536C22.5262 29.2035 22.6667 28.8644 22.6667 28.5107C22.6667 28.1571 22.5262 27.818 22.2761 27.5679C22.0261 27.3179 21.687 27.1774 21.3333 27.1774H17.3333V25.8441H25.3333C27.1008 25.842 28.7953 25.1389 30.045 23.8891C31.2948 22.6393 31.9979 20.9449 32 19.1774V11.1774C31.9979 9.40995 31.2948 7.71549 30.045 6.4657C28.7953 5.21592 27.1008 4.51286 25.3333 4.51074ZM29.3333 19.1774C29.3333 20.2383 28.9119 21.2557 28.1618 22.0058C27.4116 22.756 26.3942 23.1774 25.3333 23.1774H6.66667C5.6058 23.1774 4.58839 22.756 3.83824 22.0058C3.08809 21.2557 2.66667 20.2383 2.66667 19.1774V11.1774C2.66667 10.1165 3.08809 9.09913 3.83824 8.34898C4.58839 7.59884 5.6058 7.17741 6.66667 7.17741H25.3333C26.3942 7.17741 27.4116 7.59884 28.1618 8.34898C28.9119 9.09913 29.3333 10.1165 29.3333 11.1774V19.1774Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5033_311">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.510742)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">デモ説明・ヒアリング</div>
+                <div class="step-description">
+                  改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 03</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_5033_368)">
+                        <path
+                          d="M25.3333 0.510742H6.66667C2.98667 0.510742 0 3.49741 0 7.17741V25.8441C0 29.5241 2.98667 32.5107 6.66667 32.5107H25.3333C29.0133 32.5107 32 29.5241 32 25.8441V7.17741C32 3.49741 29.0133 0.510742 25.3333 0.510742ZM29.3333 25.8441C29.3333 28.0441 27.5333 29.8441 25.3333 29.8441H6.66667C4.46667 29.8441 2.66667 28.0441 2.66667 25.8441V7.17741C2.66667 4.97741 4.46667 3.17741 6.66667 3.17741H25.3333C27.5333 3.17741 29.3333 4.97741 29.3333 7.17741V25.8441ZM6.66667 13.8441C6.66667 13.1107 7.26667 12.5107 8 12.5107H20C20.7333 12.5107 21.3333 13.1107 21.3333 13.8441C21.3333 14.5774 20.7333 15.1774 20 15.1774H8C7.26667 15.1774 6.66667 14.5774 6.66667 13.8441ZM6.66667 8.51074C6.66667 7.77741 7.26667 7.17741 8 7.17741H16C16.7333 7.17741 17.3333 7.77741 17.3333 8.51074C17.3333 9.24408 16.7333 9.84408 16 9.84408H8C7.26667 9.84408 6.66667 9.24408 6.66667 8.51074ZM25.3333 19.1774C25.3333 19.9107 24.7333 20.5107 24 20.5107H8C7.26667 20.5107 6.66667 19.9107 6.66667 19.1774C6.66667 18.4441 7.26667 17.8441 8 17.8441H24C24.7333 17.8441 25.3333 18.4441 25.3333 19.1774ZM13.3333 24.5107C13.3333 25.2441 12.7333 25.8441 12 25.8441H8C7.26667 25.8441 6.66667 25.2441 6.66667 24.5107C6.66667 23.7774 7.26667 23.1774 8 23.1774H12C12.7333 23.1774 13.3333 23.7774 13.3333 24.5107Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5033_368">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.510742)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">ご提案</div>
+                <div class="step-description">
+                  改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。、貴社に最適なプラン、システムをご提案させていただきます。
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 04</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_5033_385)">
+                        <path
+                          d="M25.3333 5.84408H23.8667C23.2533 2.80408 20.56 0.510742 17.3333 0.510742H14.6667C11.4533 0.510742 8.76 2.80408 8.13333 5.84408H6.66667C2.98667 5.84408 0 8.83074 0 12.5107V25.8441C0 29.5241 2.98667 32.5107 6.66667 32.5107H25.3333C29.0133 32.5107 32 29.5241 32 25.8441V12.5107C32 8.83074 29.0133 5.84408 25.3333 5.84408ZM14.6667 3.17741H17.3333C19.0667 3.17741 20.56 4.29741 21.1067 5.84408H10.8933C11.44 4.29741 12.92 3.17741 14.6667 3.17741ZM29.3333 25.8441C29.3333 28.0441 27.5333 29.8441 25.3333 29.8441H6.66667C4.46667 29.8441 2.66667 28.0441 2.66667 25.8441V12.5107C2.66667 10.3107 4.46667 8.51074 6.66667 8.51074H25.3333C27.5333 8.51074 29.3333 10.3107 29.3333 12.5107V25.8441ZM22.8667 16.3774C23.5867 17.0974 24 18.1107 24 19.1774C24 20.2441 23.5867 21.2441 22.8267 22.0041L19.64 25.4174C19.3733 25.6974 19.0267 25.8441 18.6667 25.8441C18.3467 25.8441 18.0133 25.7241 17.76 25.4841C17.2267 24.9774 17.1867 24.1374 17.6933 23.6041L20.5733 20.5107H9.33333C8.6 20.5107 8 19.9107 8 19.1774C8 18.4441 8.6 17.8441 9.33333 17.8441H20.5733L17.6933 14.7507C17.1867 14.2174 17.2267 13.3641 17.76 12.8707C18.2933 12.3641 19.1467 12.4041 19.64 12.9374L22.8533 16.3907L22.8667 16.3774Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5033_385">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.510742)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">要件定義</div>
+                <div class="step-description">
+                  ご発注をいただけた場合は、ご提案内容からさらに深ぼってシステムの詳細仕様をすり合わせていただきます。
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 05</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_5033_426)">
+                        <path
+                          d="M30.6666 29.1774C30.6666 31.0187 29.1746 32.5107 27.3333 32.5107C26.2466 32.5107 25.2906 31.9827 24.6813 31.1774H22C19.4266 31.1774 17.3333 29.0841 17.3333 26.5107V19.8441C17.3333 18.7401 18.228 17.8441 19.3333 17.8441C20.4386 17.8441 21.3333 18.7401 21.3333 19.8441V26.5107C21.3333 26.8774 21.632 27.1774 22 27.1774H24.6813C25.2893 26.3721 26.2453 25.8441 27.3333 25.8441C29.1746 25.8441 30.6666 27.3361 30.6666 29.1774ZM12.6666 17.8441C11.5613 17.8441 10.6666 18.7401 10.6666 19.8441V26.5107C10.6666 26.8774 10.368 27.1774 9.99998 27.1774H7.31865C6.71065 26.3721 5.75465 25.8441 4.66665 25.8441C2.82531 25.8441 1.33331 27.3361 1.33331 29.1774C1.33331 31.0187 2.82531 32.5107 4.66665 32.5107C5.75331 32.5107 6.70931 31.9827 7.31865 31.1774H9.99998C12.5733 31.1774 14.6666 29.0841 14.6666 26.5107V19.8441C14.6666 18.7401 13.772 17.8441 12.6666 17.8441ZM1.33331 17.8827C1.33331 20.4667 2.77998 22.7921 5.11065 23.9494C5.39598 24.0907 5.69998 24.1574 5.99865 24.1574C6.73465 24.1574 7.44265 23.7494 7.79198 23.0467C8.28265 22.0574 7.87865 20.8561 6.88931 20.3654C5.92931 19.8894 5.33331 18.9374 5.33331 17.8827C5.33331 16.9641 5.73998 16.0027 6.36665 15.4374C7.49731 14.4214 8.02531 12.9054 7.74665 11.4774C7.60798 10.7707 7.59998 10.0387 7.72398 9.30141C8.12798 6.89075 10.1053 4.90141 12.5306 4.46141C15.316 3.96408 17.9866 5.29341 19.18 7.78408C19.7733 9.02541 20.9 9.89208 22.2666 10.1614C24.7746 10.6561 26.6666 12.8121 26.6666 15.1761C26.6666 16.7721 25.9573 18.2787 24.72 19.3107C23.872 20.0187 23.7573 21.2801 24.4653 22.1281C25.172 22.9747 26.4346 23.0907 27.2813 22.3827C29.4333 20.5881 30.6666 17.9627 30.6666 15.1761C30.6666 10.8694 27.46 7.10941 23.0413 6.23741C22.972 6.22408 22.848 6.18275 22.788 6.05741C20.836 1.98275 16.324 -0.293253 11.8173 0.52808C7.69865 1.27208 4.46798 4.53341 3.77865 8.64141C3.57598 9.85341 3.58931 11.0667 3.82131 12.2467C3.82531 12.2654 3.80131 12.3667 3.69198 12.4654C2.21598 13.7947 1.33331 15.8214 1.33331 17.8827Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5033_426">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.510742)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">システム設計・開発</div>
+                <div class="step-description">
+                  開発が必要になった場合は、設計・開発を進めさせていただきます。
+                  スケジュールはお客様によって違いがございます。
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 06</span>
+
+                <div class="step-by-line">
+                  <div class="step-number">
+                    <svg
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_5033_428)">
+                        <path
+                          d="M2.00123 17.8441C1.97056 17.8441 1.93856 17.8441 1.90656 17.8427C0.802564 17.7907 -0.0494357 16.8547 0.0025643 15.7507C0.402564 7.20541 7.43056 0.510742 15.9999 0.510742C19.3079 0.510742 22.4639 1.52541 25.1266 3.38408L27.0572 1.45341C27.8972 0.613409 29.3332 1.20808 29.3332 2.39608V8.51074C29.3332 9.24674 28.7359 9.84408 27.9999 9.84408H21.8852C20.6972 9.84408 20.1026 8.40808 20.9426 7.56808L22.2399 6.27074C20.3759 5.13074 18.2346 4.51074 15.9999 4.51074C9.57056 4.51074 4.29856 9.53074 3.99856 15.9374C3.9479 17.0094 3.0639 17.8441 2.00123 17.8441ZM30.0932 15.1787C28.9879 15.1507 28.0532 15.9814 28.0012 17.0827C27.7012 23.4907 22.4292 28.5094 15.9999 28.5094C13.7746 28.5094 11.6226 27.8947 9.75456 26.7547L11.0572 25.4521C11.8972 24.6121 11.3026 23.1761 10.1146 23.1761H3.9999C3.2639 23.1761 2.66656 23.7734 2.66656 24.5094V30.6241C2.66656 31.8121 4.10256 32.4067 4.94256 31.5667L6.8759 29.6334C9.54256 31.4907 12.7092 32.5081 15.9999 32.5081C24.5706 32.5081 31.5972 25.8134 31.9986 17.2681C32.0506 16.1641 31.1972 15.2281 30.0946 15.1761L30.0932 15.1787ZM22.7706 14.8974L22.2012 15.2267C22.2866 15.6414 22.3332 16.0707 22.3332 16.5107C22.3332 16.9507 22.2879 17.3787 22.2012 17.7947L22.7706 18.1241C23.7266 18.6787 24.0519 19.9014 23.4972 20.8574C23.1266 21.4974 22.4546 21.8547 21.7652 21.8547C21.4252 21.8547 21.0799 21.7681 20.7639 21.5841L20.1692 21.2387C19.5426 21.7921 18.8092 22.2161 17.9999 22.4881V23.1761C17.9999 24.2814 17.1052 25.1761 15.9999 25.1761C14.8946 25.1761 13.9999 24.2814 13.9999 23.1761V22.4881C13.1906 22.2161 12.4572 21.7921 11.8306 21.2387L11.2372 21.5827C10.9212 21.7667 10.5759 21.8534 10.2359 21.8534C9.54523 21.8534 8.87456 21.4961 8.5039 20.8561C7.94923 19.9014 8.27456 18.6774 9.23056 18.1227L9.7999 17.7934C9.71456 17.3787 9.6679 16.9494 9.6679 16.5094C9.6679 16.0694 9.71456 15.6401 9.7999 15.2254L9.23056 14.8961C8.27456 14.3414 7.94923 13.1187 8.5039 12.1627C9.05723 11.2067 10.2799 10.8801 11.2372 11.4361L11.8306 11.7801C12.4572 11.2267 13.1906 10.8027 13.9999 10.5307V9.84274C13.9999 8.73741 14.8946 7.84274 15.9999 7.84274C17.1052 7.84274 17.9999 8.73741 17.9999 9.84274V10.5307C18.8092 10.8027 19.5426 11.2267 20.1692 11.7801L20.7639 11.4347C21.7199 10.8787 22.9426 11.2054 23.4972 12.1614C24.0519 13.1174 23.7252 14.3414 22.7706 14.8947V14.8974ZM18.3332 16.5107C18.3332 15.2241 17.2866 14.1774 15.9999 14.1774C14.7132 14.1774 13.6666 15.2241 13.6666 16.5107C13.6666 17.7974 14.7132 18.8441 15.9999 18.8441C17.2866 18.8441 18.3332 17.7974 18.3332 16.5107Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5033_428">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.510742)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="step-line"></div>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">導入・運用</div>
+                <div class="step-description">
+                  導入準備、運用テスト後に、既存ツールのデータを入れ込んで稼働開始となります。
+                </div>
+              </div>
+            </li>
+            <li class="step-item">
+              <div class="step-order-wrapper">
+                <span class="step-num">STEP 07</span>
+
+                <div class="step-number">
+                  <svg
+                    width="32"
+                    height="33"
+                    viewBox="0 0 32 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_5034_430)">
+                      <path
+                        d="M16 0.510742C7.17733 0.510742 0 7.68808 0 16.5107C0 25.3334 7.17733 32.5107 16 32.5107C24.8227 32.5107 32 25.3334 32 16.5107C32 7.68808 24.8227 0.510742 16 0.510742ZM18.6533 29.5787C18.52 28.2334 17.3813 27.1774 16 27.1774C14.6187 27.1774 13.48 28.2321 13.3467 29.5787C7.26133 28.3454 2.66667 22.9547 2.66667 16.5107C2.66667 10.0667 7.26133 4.67608 13.3467 3.44274C13.48 4.78808 14.6187 5.84408 16 5.84408C17.3813 5.84408 18.52 4.78941 18.6533 3.44274C24.7387 4.67608 29.3333 10.0667 29.3333 16.5107C29.3333 22.9547 24.7387 28.3454 18.6533 29.5787ZM5.33333 13.8441C5.33333 13.1067 5.93067 12.5107 6.66667 12.5107H25.3333C26.0693 12.5107 26.6667 13.1067 26.6667 13.8441C26.6667 14.5814 26.0693 15.1774 25.3333 15.1774H6.66667C5.93067 15.1774 5.33333 14.5814 5.33333 13.8441ZM26.6667 19.1774C26.6667 19.9147 26.0693 20.5107 25.3333 20.5107H6.66667C5.93067 20.5107 5.33333 19.9147 5.33333 19.1774C5.33333 18.4401 5.93067 17.8441 6.66667 17.8441H25.3333C26.0693 17.8441 26.6667 18.4401 26.6667 19.1774ZM9.33333 8.51074C9.33333 7.77341 9.93067 7.17741 10.6667 7.17741H21.3333C22.0693 7.17741 22.6667 7.77341 22.6667 8.51074C22.6667 9.24808 22.0693 9.84408 21.3333 9.84408H10.6667C9.93067 9.84408 9.33333 9.24808 9.33333 8.51074ZM22.6667 24.5107C22.6667 25.2481 22.0693 25.8441 21.3333 25.8441H10.6667C9.93067 25.8441 9.33333 25.2481 9.33333 24.5107C9.33333 23.7734 9.93067 23.1774 10.6667 23.1774H21.3333C22.0693 23.1774 22.6667 23.7734 22.6667 24.5107Z"
+                        fill="white"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_5034_430">
+                        <rect
+                          width="32"
+                          height="32"
+                          fill="white"
+                          transform="translate(0 0.510742)"
+                        ></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="step-content">
+                <div class="step-title">保守</div>
+                <div class="step-description">
+                  アップデート内容のメール通知・機能追加・カスタマイズ・お問い合わせ等のサポート体制を完備しています。
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+       <div style="background: #f4f9f8">
+        <h1 class="text-center pt-5 mt-5">ー 導入事例 ー</h1>
+        <div
+          class="cardde"
+          style="
+            width: 90%;
+            padding-left: 130px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+          "
+        >
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div
+                class="card"
+                style="width: 100%; border: solid 1px rgb(129, 128, 128)"
+              >
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/a46d/0afb/0390fa9ff2cceb3eb63b5c2a96461c1e?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Thfzsgqohu1OCtbPcnTDwOO2utupTStBn21-3pLxoyQX~RLduqxP80eZiH~jbTs3nBEqW6GQwFQ6OCJCdu5gXHZkcaftItt19sD7tG4r6u~zNH53xzLyKEMiFuPWqUm9ChM64~FfKoR4Y4WR-BbFDZ8cdMpx5bJghoTb33jhVy9exbmw5xB~bCo6ZvmMJW33iHAClWRwAJO4iyjjW8v1KwOd~8DCIhqfo0JiR8KGAbdePbxZM1Y0U5Nt9JlXg602OO1XEYc-B4-vpNvPG1Xsbrj5DpcN2I5QF1WyTvUpw1if7vOWaxMPHgoIcZdBQiablRsiILe4IB6AvKIcFyaP1A__"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="carddd"style="width: 130px;"
+                    >🏁SB Payment Service</a
+                  >
+                  <h5 class="card-title">SBペイメントサービス様</h5>
+                  <p class="card-text">
+                    コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入り
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div
+                class="card"
+                style="width: 100%; border: solid 1px rgb(129, 128, 128)"
+              >
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/a46d/0afb/0390fa9ff2cceb3eb63b5c2a96461c1e?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Thfzsgqohu1OCtbPcnTDwOO2utupTStBn21-3pLxoyQX~RLduqxP80eZiH~jbTs3nBEqW6GQwFQ6OCJCdu5gXHZkcaftItt19sD7tG4r6u~zNH53xzLyKEMiFuPWqUm9ChM64~FfKoR4Y4WR-BbFDZ8cdMpx5bJghoTb33jhVy9exbmw5xB~bCo6ZvmMJW33iHAClWRwAJO4iyjjW8v1KwOd~8DCIhqfo0JiR8KGAbdePbxZM1Y0U5Nt9JlXg602OO1XEYc-B4-vpNvPG1Xsbrj5DpcN2I5QF1WyTvUpw1if7vOWaxMPHgoIcZdBQiablRsiILe4IB6AvKIcFyaP1A__"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="carddd"style="width: 130px;"
+                    >🏁SB Payment Service</a
+                  >
+                  <h5 class="card-title">SBペイメントサービス様</h5>
+                  <p class="card-text">
+                    コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入り
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div
+                class="card"
+                style="width: 100%; border: solid 1px rgb(129, 128, 128)"
+              >
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/a46d/0afb/0390fa9ff2cceb3eb63b5c2a96461c1e?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Thfzsgqohu1OCtbPcnTDwOO2utupTStBn21-3pLxoyQX~RLduqxP80eZiH~jbTs3nBEqW6GQwFQ6OCJCdu5gXHZkcaftItt19sD7tG4r6u~zNH53xzLyKEMiFuPWqUm9ChM64~FfKoR4Y4WR-BbFDZ8cdMpx5bJghoTb33jhVy9exbmw5xB~bCo6ZvmMJW33iHAClWRwAJO4iyjjW8v1KwOd~8DCIhqfo0JiR8KGAbdePbxZM1Y0U5Nt9JlXg602OO1XEYc-B4-vpNvPG1Xsbrj5DpcN2I5QF1WyTvUpw1if7vOWaxMPHgoIcZdBQiablRsiILe4IB6AvKIcFyaP1A__"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="carddd"style="width: 130px;"
+                    >🏁SB Payment Service</a
+                  >
+                  <h5 class="card-title">SBペイメントサービス様</h5>
+                  <p class="card-text">
+                    コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入り
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div
+                class="card"
+                style="width: 100%; border: solid 1px rgb(129, 128, 128)"
+              >
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/a46d/0afb/0390fa9ff2cceb3eb63b5c2a96461c1e?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Thfzsgqohu1OCtbPcnTDwOO2utupTStBn21-3pLxoyQX~RLduqxP80eZiH~jbTs3nBEqW6GQwFQ6OCJCdu5gXHZkcaftItt19sD7tG4r6u~zNH53xzLyKEMiFuPWqUm9ChM64~FfKoR4Y4WR-BbFDZ8cdMpx5bJghoTb33jhVy9exbmw5xB~bCo6ZvmMJW33iHAClWRwAJO4iyjjW8v1KwOd~8DCIhqfo0JiR8KGAbdePbxZM1Y0U5Nt9JlXg602OO1XEYc-B4-vpNvPG1Xsbrj5DpcN2I5QF1WyTvUpw1if7vOWaxMPHgoIcZdBQiablRsiILe4IB6AvKIcFyaP1A__"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="carddd" style="width: 130px;"
+                    >🏁SB Payment Service</a
+                  >
+                  <h5 class="card-title">SBペイメントサービス様</h5>
+                  <p class="card-text">
+                    コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入り
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+       <div class="container">
+        <div class="service-section">
+          <h2 class="section-title">その他のサービス事業</h2>
+
+          <div class="row g-3">
+             <div class="col-md-4">
+              <div class="service-box consulting">
+                <div class="logo-text">コンサルティング</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box system">
+                <div class="logo-text">システム開発</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box integration">
+                <div class="logo-text">サービスインテグレーション</div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">経営課題解決支援サービス</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box kintone">
+                <div class="logo-text">kintone導入支援サービス</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">RPA・AI支援サービス</div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">Workflow II Framework3</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">販売管理</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">ごきげんモニター</div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">CC CRM</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">AI音声認識・AI自動受付</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">ごきげんカウンター</div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="service-box field-support">
+                <div class="logo-text">Field Support</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">CTI Base</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">CTI View</div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">クラウド・インフラ構築</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="logo-text">品質クリニックサービス</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="mt-5 p-5" style="background-color: #fcf5f0; font-weight: 700">
+        <div>
+          <h3 class="text-center">ー　導入事例　ー</h3>
+        </div>
+        <div style="background-color: white" class="py-2">
+          <div class="ms-5 mt-5">
+            <h3>お問い合わせ内容</h3>
+            <p>お問い合わせには、以下の必須項目の入力をお願いいたします。</p>
+            <div class="row mt-3">
+              <div class="col">
+                <p>姓</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+              <div class="col">
+                <p>姓</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col">
+                <p>会社・組織名</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+              <div class="col">
+                <p>メールアドレス</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col">
+                <p>メールアドレス</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+              <div class="col">
+                <p>電話番号</p>
+                <input
+                  type="text"
+                  style="background-color: #f6f6f6"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-5">
+            <input
+              type="text"
+              style="height: 150px; background-color: #f6f6f6"
+              class="form-control"
+            />
+          </div>
+          <div style="margin-top: 50px; font-weight: bold" class="container">
+            <h3>個人情報の取り扱いについて</h3>
+            <h4>確認欄</h4>
+
+            <div class="mt-5">
+              <p>
+                個人情報の取扱いについて、同意の上送信します。原則としていただいた個人情報は、第三者に提供することはございません。0
+              </p>
+              <p>
+                当社の個人情報保護に関する取り組みについては、プライバシーポリシーの個人情報の取り扱いについて
+                をご覧ください。以上の個人情報の利用目的等にご同意いただける場合は、入力内容を送信ください。入力された情報は、当社委託先にて管理されます。
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button class="btn btn11 d-none d-lg-block">資料請求</button>
+             </div>
+          </div>
+        </div>
+      </div>
+
+       <footer class="mt-5">
+        <div class="row text-white">
+           <div class="col ms-5 mt-5">
+            <div class="row">
+              <p class="">TOP</p>
+            </div>
+            <div class="row">
+              <p class="">インフォメーション</p>
+            </div>
+            <div class="row">
+              <p class="">導入事例／資料</p>
+            </div>
+            <div class="row">
+              <p class="">お役立ちブログ</p>
+            </div>
+            <div class="row">
+              <p class="">ITビジネスパートナー募集</p>
+            </div>
+            <div class="row">
+              <p class="">お問い合わせ</p>
+            </div>
+            <div class="row">
+              <p class="">メールマガジン登録</p>
+            </div>
+          </div>
+
+           <div class="col ms-5 mt-5">
+            <div class="row">
+              <p class="">サービス</p>
+            </div>
+            <div class="row">
+              <p class="">コンサルティング</p>
+            </div>
+            <div class="row">
+              <p class="">システム／クラウド開発</p>
+            </div>
+            <div class="row">
+              <p class="">お役立ちブログ</p>
+            </div>
+            <div class="row">
+              <p class="">ＡＩ／クラウド製品</p>
+            </div>
+          </div>
+
+           <div class="col ms-5 mt-5">
+            <div class="row">
+              <p class="">インフォメーション</p>
+            </div>
+            <div class="row">
+              <p class="">導入事例／資料</p>
+            </div>
+            <div class="row">
+              <p class="">導入事例／資料</p>
+            </div>
+            <div class="row">
+              <p class="">お役立ちブログ</p>
+            </div>
+            <div class="row">
+              <p class="">ITビジネスパートナー募集</p>
+            </div>
+            <div class="row">
+              <p class="">お問い合わせ</p>
+            </div>
+          </div>
+
+           <div class="col ms-5 mt-5">
+            <div class="row">
+              <p class="">ITビジネスパートナー募集</p>
+            </div>
+            <div class="row">
+              <p class="">お問い合わせ</p>
+            </div>
+          </div>
+           <div class="col ms-5 mt-5">
+            <div class="row">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/7c50/7f0d/70d59871153487aa723b639793c4a7bf?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GF0eto32B60f0bKmUMD4e59dtgGVgXPKZWTBFIg4FmHZAgHolH0-NcTMSda-s~zAnLJ7Cz6S1xPnZGdbZxYCaBqxuNXoNagWEdqCjV0VmQqksjwPM27yFPr7gFJT8pGK5vPN8W8Bxnj6jnW~~XkFHQV-~xwVwZwEHeZWW7MPszqIsq7SrlJ8FLSRV4aRLcZqqCwlw9sA~J3CgxLC7cqdpMINQvQDmmb25nRMidjN4fjOzcaEL5UmMVaqeRR0ZCOfjgPUfP43zG9pK4o8B6neS3FzWi247BvEjL-tewj8PYCIDVi6Ymg9kde82UFKFejtwTBpsIgjK8lK6Wj9VmrsBA__"
+                alt=""
+                style="width: 100px"
+              />
+            </div>
+            <div class="row mt-2">
+              <div class="col">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const bubbles = document.querySelectorAll(".process-bubble");
+
+        bubbles.forEach((bubble) => {
+          bubble.addEventListener("mouseenter", () => {
+            bubble.style.transform = "scale(1.05)";
+          });
+
+          bubble.addEventListener("mouseleave", () => {
+            bubble.style.transform = "scale(1)";
+          });
+        });
+
+        function createArrow(
+          startId,
+          endId,
+          color = "#E86C4D",
+          curved = false,
+          controlPoint = null
+        ) {
+          const start = document.getElementById(startId);
+          const end = document.getElementById(endId);
+          const svg = document.getElementById("arrow-svg");
+
+          const startRect = start.getBoundingClientRect();
+          const endRect = end.getBoundingClientRect();
+          const svgRect = svg.getBoundingClientRect();
+
+          const startX = startRect.left + startRect.width / 2 - svgRect.left;
+          const startY = startRect.bottom - svgRect.top;
+          const endX = endRect.left + endRect.width / 2 - svgRect.left;
+          const endY = endRect.top - svgRect.top;
+
+          let path;
+          if (curved) {
+            const cpX = controlPoint ? controlPoint.x : (startX + endX) / 2;
+            const cpY = controlPoint ? controlPoint.y : (startY + endY) / 2;
+            path = `M ${startX} ${startY} Q ${cpX} ${cpY}, ${endX} ${endY}`;
+          } else {
+            path = `M ${startX} ${startY} L ${endX} ${endY}`;
+          }
+
+          const arrow = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path"
+          );
+          arrow.setAttribute("d", path);
+          arrow.setAttribute("stroke", color);
+          arrow.setAttribute("stroke-width", "2");
+          arrow.setAttribute("fill", "none");
+          arrow.setAttribute("marker-end", "url(#arrowhead)");
+
+          svg.appendChild(arrow);
+        }
+
+         const defs = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "defs"
+        );
+        const marker = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "marker"
+        );
+        marker.setAttribute("id", "arrowhead");
+        marker.setAttribute("markerWidth", "10");
+        marker.setAttribute("markerHeight", "7");
+        marker.setAttribute("refX", "9");
+        marker.setAttribute("refY", "3.5");
+        marker.setAttribute("orient", "auto");
+
+        const polygon = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "polygon"
+        );
+        polygon.setAttribute("points", "0 0, 10 3.5, 0 7");
+        polygon.setAttribute("fill", "#E86C4D");
+
+        marker.appendChild(polygon);
+        defs.appendChild(marker);
+        document.getElementById("arrow-svg").appendChild(defs);
+
+         createArrow("bubble1", "bubble2");
+        createArrow("bubble2", "bubble3");
+        createArrow("bubble4", "bubble2", "#E86C4D", true, { x: 400, y: 300 });
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
